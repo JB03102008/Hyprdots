@@ -6,11 +6,11 @@ theme="rofi-powertheme"
 
 uptime="$(awk '{printf "%d hour(s), %d minute(s)\n", $1/3600, ($1%3600)/60}' /proc/uptime)"
 
-shutdown=''
-reboot=''
-lock=''
-suspend=''
-logout=''
+shutdown='  Shutdown'
+reboot='  Reboot'
+lock='  Lock'
+suspend='  Suspend'
+logout='  Logout'
 yes=''
 no=''
 
